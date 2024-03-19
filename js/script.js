@@ -88,4 +88,6 @@ function signIn() {
 
   var slctWhere = document.getElementById("select-where").value;
   console.log(slctWhere);
+
+  alert(name + " You are signed in");
 }
