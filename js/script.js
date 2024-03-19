@@ -73,3 +73,19 @@ const obs = new IntersectionObserver(
   }
 );
 obs.observe(sectionHeroEl);
+
+/************************************/
+/* Enabling visibility of user data on
+   the console after registration */
+/************************************/
+
+function signIn() {
+  var name = document.getElementById("full-name").value;
+  console.log("Your Name: " + name);
+
+  var email = document.getElementById("email").value;
+  console.log("Your Mail: " + email);
+
+  var slctWhere = document.getElementById("select-where").value;
+  console.log(slctWhere);
+}
